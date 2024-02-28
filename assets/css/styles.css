@@ -1,0 +1,172 @@
+@import url('reset.css');
+
+/* Estilização das tags gerais */ 
+
+h1{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 10px;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+header{
+    background-color: #FFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+body{
+    background-color: #F9F9F9;
+}
+
+p{
+    color: #515151;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+strong{
+    color: black;
+}
+
+a{
+    color:#0A62D4;
+}
+
+/* Definição do layout por flexbox */ 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.watching-video {
+    display: flex;
+    margin-top: 30px;
+}
+
+/* Estilização do header */ 
+
+.menu-left .icone-menu{
+    margin: 5px 40px auto -120px;
+}
+
+.menu-left .logo-youtube{
+    margin-top: auto;
+}
+
+.menu-center{
+    margin-top: 5px;
+}
+
+.menu-right{
+    margin-right: -125px;
+}
+
+.menu-right img{
+    padding: 10px;
+}
+
+/* Estilização do video principal */
+
+.main-video {
+    flex: 2;
+    margin-right: 15px;
+}
+
+.main-video img {
+    width: 900px;
+    height: 515px;
+}
+
+/* Estilização da barra actions */ 
+
+.actions{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.main-video .actions .logo-disney{
+    width: 60px;
+    height: 60px;
+}
+
+.main-video .actions .subscribe{
+    width: 159px;
+    height: 40px;
+}
+
+.main-video .actions .like{
+    width: 63px;
+    height: 24px;
+}
+
+.main-video .actions .deslike{
+    width: 100px;
+    height: 24px;
+}
+
+.main-video .actions .share{
+    width: 115px;
+    height: 24px;
+}
+
+.main-video .actions .download{
+    width: 95px;
+    height: 24px;
+}
+
+
+.main-video .actions p{
+    margin-left: -10px;
+}
+
+/* Estilização da descrição */ 
+.main-video .description{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.main-video .description p{
+    color: black;
+}
+
+/* Estilização da sidebar */ 
+
+.sidebar {
+    flex: 1;
+    
+}
+
+.video-suggested {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.video-suggested img{
+    width: 160px;
+    height: 90px;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-info{
+    padding: 0 10px;
+    margin-right: -60px;
+}
+
+.video-info h2{
+    font-size: 14px;
+}
+
+.video-info p{
+    font-size: 12px;
+    line-height: 1.5;
+}
